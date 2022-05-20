@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+.ru{
+        transform: rotate(90deg);
+        margin-top: 90px;
+}
+.aboutme{
+    margin: 40px 40px;
+    background: #F6F6F6;
+}
+.aboutme h2{
+    
+font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+font-weight: bolder;
+}
+.aboutme h3{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+margin-top:20px ;
+}
+.skills{
+    margin: 30px 30px;
+}
+.apps{
+    display: flex;
+    justify-content: space-between;
+}
+.apps img{
+    position: relative;
+    left: 20px;
+} 
+.apps .first h4{
+    position: relative;
+    left: 20px;
+}
+.skills .apps div{
+    margin-left: -20px;
+    margin-top: 80px;
+}
+.portfolio{
+    width: 1445px;
+    height: 650px;
+    background: #F6F6F6;
+    text-align: center;
+    margin-top: 105px;
+}
+.portfolio>h1{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 30px;
+}
+.portfolio>img{
+    width: 936px;
+    height: 510px;
+    display:block;
+    margin:auto
+}
+.portfolio>a{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+margin-top: 20px;
+
+}
+footer{
+    margin: 30px 30px;
+    height: 500px;
+}
+footer>h1{
+    font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+margin-bottom: 20px;
+}
+footer>p{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #070707;
+}
+footer>a{
+    background: #070707;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+   position: relative;
+   left: 610px;
+   bottom: -20px;
+}
+footer>div{
+    position: relative;
+    left: 550px;
+    bottom: -30px;
+}
+footer>h2{
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282; 
+    position: relative;
+    bottom: -60px;   
+}
+.burger{
+    display: none;
+}
+.img{
+    height: 387px;
+     width: 943.612060546875;
+      position: relative; 
+    left: 133px;
+}
+
+/*================= Responsive  ========================*/
+
+@media(max-width: 576px){
+    .menu{
+        display: none !important;
+    }
+    .burger{
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    .container{
+        height: 100vh;
+    }
+    /* .text1{
+        margin-bottom: 10px;
+    } */
+    .row img {
+        margin-bottom: -30px;
+        width: 274px;
+        height: 211px;
+        position: relative;
+        left: -96px;
+    }
+    .aboutme{
+        text-align: center;
+        font-size: 10px;
+    }
+}
